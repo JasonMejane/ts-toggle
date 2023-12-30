@@ -1,2 +1,3 @@
 # ts-toggle
-A simple feature toggle system based on Typescript decorators
+
+A simple and flexible feature toggle system based on Typescript decorators

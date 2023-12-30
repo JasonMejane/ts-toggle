@@ -1,3 +1,5 @@
+.github
 coverage
-dist
 node_modules
+
+**/*.md

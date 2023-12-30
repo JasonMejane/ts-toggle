@@ -1,0 +1,16 @@
+.editorconfig
+.eslintignore
+.eslintrc.json
+.github
+.gitignore
+.prettierignore
+.prettierrc.json
+coverage
+dist
+karma.conf.js
+package-lock.json
+src
+test
+tsconfig.json
+tsconfig.build.json
+tsconfig.publish.json

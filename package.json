@@ -1,0 +1,57 @@
+{
+    "name": "ts-toggle",
+    "version": "1.0.0",
+    "description": "A simple and flexible feature toggle system based on Typescript decorators",
+    "scripts": {
+        "lint": "eslint \"src/**\" \"test/**\"",
+        "lint-fix": "eslint \"src/**\" \"test/**\" --fix",
+        "build": "tsc -p tsconfig.build.json",
+        "build-publish": "tsc -p tsconfig.publish.json",
+        "test": "karma start karma.conf.js"
+    },
+    "files": [
+        "index.js",
+        "index.d.ts"
+    ],
+    "main": "index.js",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JasonMejane/ts-toggle.git"
+    },
+    "keywords": [
+        "toggle",
+        "feature",
+        "swicth",
+        "killswitch",
+        "decorator",
+        "typescript",
+        "node"
+    ],
+    "author": "Jason Méjane",
+    "license": "MIT",
+    "bugs": {
+        "email": "jason.mejane@gmail.com",
+        "url": "https://github.com/JasonMejane/ts-toggle/issues"
+    },
+    "homepage": "https://github.com/JasonMejane/ts-toggle#readme",
+    "devDependencies": {
+        "@types/jasmine": "5.1.4",
+        "@types/node": "20.10.6",
+        "@typescript-eslint/eslint-plugin": "6.16.0",
+        "@typescript-eslint/parser": "6.16.0",
+        "eslint": "8.56.0",
+        "eslint-plugin-prettier": "5.1.2",
+        "jasmine": "5.1.0",
+        "jasmine-core": "5.1.1",
+        "karma": "6.4.2",
+        "karma-chrome-launcher": "3.2.0",
+        "karma-coverage": "2.2.1",
+        "karma-coverage-istanbul-reporter": "3.0.3",
+        "karma-firefox-launcher": "2.1.2",
+        "karma-jasmine": "5.1.0",
+        "karma-typescript": "5.5.4",
+        "ts-node": "10.9.2",
+        "typescript": "5.2.2"
+    }
+}
