@@ -1,4 +1,4 @@
-import { Toggle } from '../src';
+import { Toggle } from '../src/decorator';
 
 function isDisabled() {
     return false;
@@ -49,7 +49,7 @@ export class TestClass {
     }
 }
 
-describe('TestClass', async () => {
+describe('Decorator', async () => {
     let test: TestClass;
 
     beforeEach(async () => {
