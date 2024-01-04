@@ -1,5 +1,4 @@
-import { Togglable } from '../src/togglable';
-import { Toggler } from '../src/toggler';
+import { Togglable, Toggler } from '../src';
 
 describe('Toggler', () => {
     let toggler: Toggler;

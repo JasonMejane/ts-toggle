@@ -1,4 +1,4 @@
-import { Toggle } from '../src/decorator';
+import { Toggle } from '../src';
 
 function isDisabled() {
     return false;

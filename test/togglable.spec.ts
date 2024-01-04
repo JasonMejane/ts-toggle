@@ -1,4 +1,4 @@
-import { Togglable } from '../src/togglable';
+import { Togglable } from '../src';
 
 class TestClass extends Togglable {
     constructor(isTogglable: boolean, isEnabledByDefault: boolean) {
